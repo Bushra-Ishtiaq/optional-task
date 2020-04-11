@@ -1,0 +1,103 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+main{
+    background-color: hotpink;
+    padding: 14px;
+    margin: 210px 20px;
+}
+button{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+#cart-btn {
+    background-color:   #c63a27;
+    color: white;
+    padding: 9px 31px;
+    border: 2px solid #c63a27;
+    border: none;
+    outline: none;
+}
+#cart-btn:hover{
+    background-color: #9c1f0e;
+    cursor: pointer;
+}
+#start-btn{
+    background-color: #ffd11c;
+    color: #977f67;
+    border: 2px solid #977f67;
+    padding: 13px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+#start-btn:hover{
+    background-color:#ecd8c3;
+    cursor: pointer;
+}
+#login-btn{
+    background-image: linear-gradient(to right, #52c8cc,#92cc80);
+    color: white;
+    border: none;
+    padding: 10px 39px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+#login-btn:hover{
+    background-color: #92cc80;
+    background-image: none;
+    cursor: pointer;
+}
+#signup-btn{
+    background-color: #fffff0;
+    color: darkblue;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    padding: 16px 28px;
+    outline: none;
+}
+#signup-btn:hover{
+    color: #fffff0;
+    background-color: darkblue;
+    cursor: pointer;
+}
+#subscribe-btn{
+    background-image: linear-gradient(to top, #fcb22f, #ffbd29);
+    color: white;
+    border: 2px solid #fcb22f;
+    padding: 13px 35px;
+    border-radius: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px grey;
+    outline: none;
+}
+#subscribe-btn:hover{
+    background-color:#ffbd29;
+    background-image: none;
+    cursor: pointer;
+}
+#twitter-btn{
+    background-color: white;
+    color: #1880d4;
+    border: 2px solid #1880d4;
+    border-radius: 100%;
+    padding: 10px 13px;
+    font-size: 1.2em;
+    outline: none;
+}
+#twitter-btn:hover{
+    color: white;
+    background-color: #1880d4;
+    cursor: pointer;
+}
+h2{
+    display: flex;
+    justify-content: flex-end;
+    color: #a90a56;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin-right: 35px;
+} 
